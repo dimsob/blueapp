@@ -1,4 +1,4 @@
-package com.tutsplus.matt.bluetoothscanner;
+package devalemedia.blueapp;
 
 import android.bluetooth.BluetoothAdapter;
 import android.content.DialogInterface;
@@ -10,8 +10,10 @@ import android.support.v7.app.AlertDialog;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import devalemedia.blueapp.DeviceListFragment;
 
-public class ListActivity extends ActionBarActivity implements DeviceListFragment.OnFragmentInteractionListener  {
+
+public class MainActivity extends ActionBarActivity implements DeviceListFragment.OnFragmentInteractionListener  {
 
 
     private DeviceListFragment mDeviceListFragment;

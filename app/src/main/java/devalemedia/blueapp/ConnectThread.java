@@ -1,4 +1,4 @@
-package com.tutsplus.matt.bluetoothscanner;
+package devalemedia.blueapp;
 
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothSocket;

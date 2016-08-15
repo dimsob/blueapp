@@ -1,4 +1,4 @@
-package com.tutsplus.matt.bluetoothscanner;
+package devalemedia.blueapp;
 
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
@@ -14,9 +14,7 @@ import android.widget.ToggleButton;
 
 import java.util.List;
 
-/**
- * Created by Matt on 5/12/2015.
- */
+
 public class DeviceListAdapter extends ArrayAdapter<DeviceItem>{
 
     private Context context;
@@ -35,13 +33,7 @@ public class DeviceListAdapter extends ArrayAdapter<DeviceItem>{
         TextView titleText;
     }
 
-    /**
-     *
-     * @param position
-     * @param convertView
-     * @param parent
-     * @return
-     */
+
     public View getView(int position, View convertView, ViewGroup parent) {
         ViewHolder holder = null;
         View line = null;

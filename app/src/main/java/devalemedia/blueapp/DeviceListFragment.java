@@ -1,4 +1,4 @@
-package com.tutsplus.matt.bluetoothscanner;
+package devalemedia.blueapp;
 
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
@@ -23,6 +23,8 @@ import android.widget.ToggleButton;
 
 import java.util.ArrayList;
 import java.util.Set;
+
+import devalemedia.blueapp.DeviceItem;
 
 /**
  * A fragment representing a list of Items.

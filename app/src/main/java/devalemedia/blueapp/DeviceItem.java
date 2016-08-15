@@ -1,4 +1,4 @@
-package com.tutsplus.matt.bluetoothscanner;
+package devalemedia.blueapp;
 
 /**
  * Created by Matt on 5/12/2015.
